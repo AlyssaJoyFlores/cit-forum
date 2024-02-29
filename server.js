@@ -9,6 +9,7 @@ const server = express()
 
 
 connectDb()
+server.use(cors)
 // server.use(cors({
 //     origin : ['http://localhost:5173']
 //   }))

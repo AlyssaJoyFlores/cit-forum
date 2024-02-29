@@ -5,7 +5,7 @@ const errorHandler = require('./middleware/errorHandler')
 // const mysql = require('mysql')
 const connectDb = require('./config/dbConnection')
 const server = express()
-// const cors = require('cors')
+const cors = require('cors')
 
 
 connectDb()

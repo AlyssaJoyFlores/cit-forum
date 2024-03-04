@@ -9,7 +9,7 @@ const cors = require('cors')
 
 
 connectDb()
-server.use(cors)
+// server.use(cors)
 // server.use(cors({
 //     origin : ['http://localhost:5173']
 //   }))
